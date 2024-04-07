@@ -15,6 +15,6 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/gh-release:1.0.25" \
-    --option repo='namespacelabs/foundation' --option binaryNames='nsc,docker-credential-nsc' --option version="$VERSION" libName='docker-credential-nsc'
+    --option repo='namespacelabs/foundation' --option binaryNames='nsc,docker-credential-nsc' --option version="$VERSION" --option libName='docker-credential-nsc'
 
 echo 'Done!'
